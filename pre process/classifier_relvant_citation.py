@@ -14,7 +14,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.ba
 print(f"Using device: {device}")
 
 
-df = pd.read_csv("/home/liorkob/thesis/lcp/global_citation_paragraphs - global_citation_paragraphs (2).csv")  # Replace with your CSV file path
+df = pd.read_csv("/home/liorkob/M.Sc/thesis/lcp/tagged_citation_for_classifier.csv")  # Replace with your CSV file path
 
 def clean_texts(texts):
     return [str(text).strip().replace("\t", " ").replace("\n", " ") for text in texts]
@@ -180,7 +180,7 @@ def train_and_save_model(train_texts, train_labels, save_path="best_model.pt"):
     torch.save(model.state_dict(), save_path)
     print(f"Model saved to {save_path}")
 
-train_and_save_model(train_texts, train_labels, save_path="best_model.pt")
+train_and_save_model(train_texts, train_labels, save_path="classifier_relvant_citation_model.pt")
 
 # # ________________________________________grid_search_______________________
 
