@@ -1,0 +1,17 @@
+=== GPT Verification Report ===
+
+Total extractions verified: 2987
+Average verification score: 9.77
+Average rule-based score: 7.97
+Average overall score: 8.87
+Valid extractions: 2416/2987 (80.9%)
+
+High quality extractions (8-10): 2800
+Medium quality extractions (5-7): 178
+Low quality extractions (0-4): 9
+
+Most common issues:
+  החילוץ ארוך מדי יחסית לטקסט המקורי: 1767 times
+  החילוץ כולל תוכן לא רלוונטי: 758 times
+  לא נמצאה פסקת כתב אישום: 505 times
+  החילוץ קצר מדי: 6 times
