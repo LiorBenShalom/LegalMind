@@ -1,0 +1,7 @@
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.npz
+*.npy
