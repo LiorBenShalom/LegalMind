@@ -4,3 +4,10 @@ __pycache__/
 .DS_Store
 *.pt *.pth *.ckpt *.safetensors *.bin *.h5 *.npz *.npy *.onnx
 data/ datasets/ outputs/ runs/ wandb/ cache/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+*.npz
+*.npy
