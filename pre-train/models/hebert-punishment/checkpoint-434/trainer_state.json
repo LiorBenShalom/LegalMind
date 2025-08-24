@@ -1,0 +1,63 @@
+{
+  "best_metric": 1026.75048828125,
+  "best_model_checkpoint": "./hebert-punishment/checkpoint-434",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 434,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "grad_norm": 235.2693634033203,
+      "learning_rate": 4e-05,
+      "loss": 1151.9495,
+      "step": 217
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 1063.220458984375,
+      "eval_runtime": 0.8442,
+      "eval_samples_per_second": 228.629,
+      "eval_steps_per_second": 29.615,
+      "step": 217
+    },
+    {
+      "epoch": 2.0,
+      "grad_norm": 339.727783203125,
+      "learning_rate": 3e-05,
+      "loss": 1074.6018,
+      "step": 434
+    },
+    {
+      "epoch": 2.0,
+      "eval_loss": 1026.75048828125,
+      "eval_runtime": 0.8391,
+      "eval_samples_per_second": 230.003,
+      "eval_steps_per_second": 29.793,
+      "step": 434
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 1085,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 910890473656320.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}

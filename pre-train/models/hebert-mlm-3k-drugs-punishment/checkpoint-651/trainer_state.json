@@ -1,0 +1,78 @@
+{
+  "best_metric": 1020.3076171875,
+  "best_model_checkpoint": "./hebert-mlm-3k-drugs-punishment/checkpoint-651",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 651,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "grad_norm": 212.2262725830078,
+      "learning_rate": 4e-05,
+      "loss": 1159.867,
+      "step": 217
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 1065.8941650390625,
+      "eval_runtime": 0.8398,
+      "eval_samples_per_second": 229.816,
+      "eval_steps_per_second": 29.769,
+      "step": 217
+    },
+    {
+      "epoch": 2.0,
+      "grad_norm": 352.10955810546875,
+      "learning_rate": 3e-05,
+      "loss": 1075.902,
+      "step": 434
+    },
+    {
+      "epoch": 2.0,
+      "eval_loss": 1027.7840576171875,
+      "eval_runtime": 0.8146,
+      "eval_samples_per_second": 236.924,
+      "eval_steps_per_second": 30.69,
+      "step": 434
+    },
+    {
+      "epoch": 3.0,
+      "grad_norm": 268.06781005859375,
+      "learning_rate": 2e-05,
+      "loss": 1051.7813,
+      "step": 651
+    },
+    {
+      "epoch": 3.0,
+      "eval_loss": 1020.3076171875,
+      "eval_runtime": 0.8046,
+      "eval_samples_per_second": 239.859,
+      "eval_steps_per_second": 31.07,
+      "step": 651
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 1085,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 1366335710484480.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
