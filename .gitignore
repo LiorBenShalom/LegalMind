@@ -1,0 +1,6 @@
+__pycache__/
+.ipynb_checkpoints/
+*.log
+.DS_Store
+*.pt *.pth *.ckpt *.safetensors *.bin *.h5 *.npz *.npy *.onnx
+data/ datasets/ outputs/ runs/ wandb/ cache/
